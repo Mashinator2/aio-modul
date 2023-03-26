@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url(../fonts/gothampro_bold.ttf);
+font-weight: 700;
+  }
+  @font-face {
+    font-family: 'Mons';
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+  }
+  .con{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    /* justify-content: space-between; */
+  }
+.logo_con{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+.logo{
+font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 40px;
+user-select: none;
+color: #476BF0;
+}
+.line{
+    height: 19px;
+    width: 2px;
+    background-color: #525252;
+}
+.text{
+font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 120%;
+width: 114px;
+color: #525252;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 62px;
+}
+.nav_link{
+    text-transform: uppercase;
+    font-family: 'Mons';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 17px;
+
+color: #252A34;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #476BF0;
+}
